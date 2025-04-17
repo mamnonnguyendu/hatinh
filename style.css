@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff8ec;
+  color: #4e342e;
+}
+
+header {
+  background-color: #a67c52;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.activities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.activity {
+  background-color: #f2e1c1;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #4e342e;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
